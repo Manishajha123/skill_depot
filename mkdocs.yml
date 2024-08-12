@@ -130,3 +130,4 @@ nav:
     - HANA: hana/index.md
     - Cloud Foundry: cf/index.md
     - CI/CD: ci-cd/index.md
+    - Javascript: js/index.md
