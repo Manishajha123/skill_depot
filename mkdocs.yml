@@ -127,6 +127,7 @@ nav:
     - Home: index.md
     - Fiori:
       - Home: fiori/index.md
+      - fiori: fiori/fiori.md
     - CAPM:
       - Home: capm/index.md
       - hana: capm/hana.md
