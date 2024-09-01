@@ -4,6 +4,12 @@ Sap Fiori is a new user experience (UX) for sap software and application. It pro
 ### **Design Principles**
 The design philosophy of SAP Fiori is based on five core principles. SAP Fiori user experience is role-based, adaptive, simple, coherent, and delightful.
 
+- Role- Based:  grants users access to resources based on their roles and responsibilities: 
+- Adaptive: having the ability or tendency to adapt to different situations
+- Simple:   easy to understand
+- Coherent: having clarity or intelligibility
+- Delightful: very pleasant, attractive, or enjoyable
+
 ### **Type of Fiori app**
 SAP Fiori has three app types, each distinguished by their focus and infrastructure requirements:
 
@@ -34,6 +40,26 @@ TWO WAYS OF SAP FIORI APPS IMPLEMENTATION :
 ### **GROUP:**
 A group is a subset of Applications from one or more catalogs. 
 
+## **Semantic Object:**
+IT Represents a business entity such as a customer, a sales order, or a product. Using semantic objects, you can bundle applications that reflect a specific scenario. They allow you to refer to objects in a standardized way, abstracting from concrete implementations of these objects. You can either use semantic objects shipped by SAP, or create new semantic objects.
+
+## **TARGET MAPPING :**
+Target mapping is part of the SAP Fiori launchpad configuration. It defines the target application, which is launched when clicking on a tile, on a link or within app-to-app navigation.
+
+## **Intent:**
+An intent is a unique combination of a semantic object (for example, Purchase Order) and an action (for example, Display) and an optional set of navigation parameters.
+
+To summarize: When a user clicks a tile in their launchpad, the intent (including optional parameters) navigates to the app and opens it.
+
+## **System Alias:**
+An SAP system alias is needed as the logical name of a system connection, that is, you specify where the SAP system alias should point to. Depending on the Gateway content scenario and your system landscape you thus set up the system alias.
+
+### SAP Fiori for SAP S/4HANA – Top 5 Fiori features that bring value to every Business User
+* Fiori Enterprise Search
+* Fiori Notifications
+* Fiori Default Values
+* Fiori Personalization
+* User Assistance
 
 ### Standard Fiori apps
 STEP 1 : **GO TO SAP REFERENCE LIBRARY**
@@ -69,27 +95,5 @@ STEP 1 : **GO TO SAP REFERENCE LIBRARY**
 ![alt text](../images/assets/Fiori13.png)
 ![alt text](../images/assets/Fiori14.png)
 
-## **Semantic Object:**
-IT Represents a business entity such as a customer, a sales order, or a product. Using semantic objects, you can bundle applications that reflect a specific scenario. They allow you to refer to objects in a standardized way, abstracting from concrete implementations of these objects. You can either use semantic objects shipped by SAP, or create new semantic objects.
 
-## **TARGET MAPPING :**
-Target mapping is part of the SAP Fiori launchpad configuration. It defines the target application, which is launched when clicking on a tile, on a link or within app-to-app navigation.
 
-## **Intent:**
-An intent is a unique combination of a semantic object (for example, Purchase Order) and an action (for example, Display) and an optional set of navigation parameters.
-
-To summarize: When a user clicks a tile in their launchpad, the intent (including optional parameters) navigates to the app and opens it.
-
-## **System Alias:**
-An SAP system alias is needed as the logical name of a system connection, that is, you specify where the SAP system alias should point to. Depending on the Gateway content scenario and your system landscape you thus set up the system alias.
-
-### SAP Fiori for SAP S/4HANA – Top 5 Fiori features that bring value to every Business User
-* Fiori Enterprise Search
-* Fiori Notifications
-* Fiori Default Values
-* Fiori Personalization
-* User Assistance
-
-## **Binding**
-
-Element-binding allows the relative binding of all children with respect to a parent. Property binding is used to bind model data to the property of a control.
