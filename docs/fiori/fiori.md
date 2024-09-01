@@ -6,9 +6,10 @@ The design philosophy of SAP Fiori is based on five core principles. SAP Fiori u
 
 ### **Type of Fiori app**
 SAP Fiori has three app types, each distinguished by their focus and infrastructure requirements:
-* Transactional apps
-* Fact sheets
-* Analytical apps
+
+- Transactional apps
+- Fact sheets
+- Analytical apps
 
 ### **SAP FIORI LAUNCHPAD :**
 Launchpad is the single entry point for all business users.
