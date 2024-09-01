@@ -125,8 +125,11 @@ extra_javascript:
 # Page tree
 nav:
     - Home: index.md
-    - Fiori: fiori/index.md
-    - CAPM: capm/index.md
+    - Fiori:
+      - Home: fiori/index.md
+    - CAPM:
+      - Home: capm/index.md
+      - hana: capm/hana.md
     - HANA: hana/index.md
     - Cloud Foundry: cf/index.md
     - CI/CD: ci-cd/index.md
