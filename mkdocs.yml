@@ -127,7 +127,11 @@ nav:
     - Home: index.md
     - Fiori:
       - Home: fiori/index.md
-      - fiori: fiori/fiori.md
+      - Contents: fiori/fiori.md
+    - SAPUI5:
+      - Introduction: sapui5/sapui5.md 
+      - Bindings: sapui5/sapui5_1.md 
+      - Navigation: sapui5/sapui5_2.md 
     - CAPM:
       - Home: capm/index.md
       - hana: capm/hana.md

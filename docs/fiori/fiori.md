@@ -25,9 +25,9 @@ SAP Fiori has three app types, each distinguished by their focus and infrastruct
 ### **SAP FIORI LAUNCHPAD :**
 
 Launchpad is the single entry point for all business users.
-
-**`http://<host>.<domain>:<port>/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=<client>&sap-language=EN`**
-
+---
+`http://<host>.<domain>:<port>/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=<client>&sap-language=EN`
+---
 ### **T-code:**
 
 - /n/UI2/FLP- Launchpad
@@ -36,11 +36,11 @@ Launchpad is the single entry point for all business users.
 ### **SAP FIORI LAUNCHPAD DESIGNER :**
 
 The Fiori launchpad designer is a tool to configure the tiles for static and dynamic Fiori apps.
-
-**`HTTP://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CUST`**
-
-**`HTTP://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CONF`**
-
+---
+`HTTP://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CUST`
+---
+`HTTP://<host>.<domain>:<port>/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=<client>?scope=CONF`
+---
 ### **CATALOG :**
 
 A catalog is a set of apps we want to make available for one role.
