@@ -132,10 +132,13 @@ nav:
       - Introduction: sapui5/sapui5.md 
       - Bindings: sapui5/sapui5_1.md 
       - Navigation: sapui5/sapui5_2.md 
+      - Interview Prep: sapui5/sapui5_3.md 
     - CAPM:
       - Home: capm/index.md
       - hana: capm/hana.md
     - HANA: hana/index.md
     - Cloud Foundry: cf/index.md
     - CI/CD: ci-cd/index.md
-    - Javascript: js/index.md
+    - Javascript:
+      - Home: js/index.md
+      - concurrency: js/concurrency.md
