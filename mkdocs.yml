@@ -134,7 +134,7 @@ nav:
       - Navigation: sapui5/sapui5_2.md 
       - Interview Prep: sapui5/sapui5_3.md 
     - CAPM:
-      - Home: capm/index.md
+      - CAP: capm/index.md
       - hana: capm/hana.md
     - HANA: hana/index.md
     - Cloud Foundry: cf/index.md
